@@ -5,7 +5,7 @@ xgboost           # Explicitly requested in JD
 shap              # For "Explainability"
 fairlearn         # For "Ethical AI"
 openai            # For "GenAI"
-streamlit         # For the Demo UI
+streamlit>=1.40.0 # For the Demo UI
 matplotlib
 seaborn
 imbalanced-learn  # For handling imbalance (SMOTE)
