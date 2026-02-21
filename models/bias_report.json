@@ -1,0 +1,54 @@
+{
+  "age_group": {
+    "by_group": {
+      "false_positive_rate": {
+        "25+": 0.4167,
+        "<25": 0.6
+      },
+      "false_negative_rate": {
+        "25+": 0.1707,
+        "<25": 0.2105
+      },
+      "selection_rate": {
+        "25+": 0.5217,
+        "<25": 0.6923
+      }
+    },
+    "overall": {
+      "false_positive_rate": 0.4429,
+      "false_negative_rate": 0.1833,
+      "selection_rate": 0.555
+    },
+    "disparity": {
+      "false_positive_rate": 0.1833,
+      "false_negative_rate": 0.0398,
+      "selection_rate": 0.1706
+    }
+  },
+  "gender": {
+    "by_group": {
+      "false_positive_rate": {
+        "Female": 0.5366,
+        "Male": 0.404
+      },
+      "false_negative_rate": {
+        "Female": 0.2,
+        "Male": 0.175
+      },
+      "selection_rate": {
+        "Female": 0.623,
+        "Male": 0.5252
+      }
+    },
+    "overall": {
+      "false_positive_rate": 0.4429,
+      "false_negative_rate": 0.1833,
+      "selection_rate": 0.555
+    },
+    "disparity": {
+      "false_positive_rate": 0.1325,
+      "false_negative_rate": 0.025,
+      "selection_rate": 0.0978
+    }
+  }
+}
